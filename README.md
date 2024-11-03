@@ -19,4 +19,4 @@ To run this project on your local machine, you have two options:
 1. Open your terminal and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/RizwanLakho/gsap
