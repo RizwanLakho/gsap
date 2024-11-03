@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+
+}
+.part2{
+    display: flex;
+    align-items:baseline;
+
+    gap:20px;
+}
+
+nav h1{
+    font-size: 50px;
+
+}
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 55px;
+}
+nav h4{
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: black;
+}
+
+.center{
+    padding: 70px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 55%;
+}
+
+.center-part1 h1{
+    font-size: 80px;
+    font-weight: 500;
+
+}
+.center-part1 p{
+    font-size: 23px;
+    width: 80%;
+}
+ button{
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 30;
+}
+.center-part2{
+    height: 100%;
+    width: 45%;
+    
+}
+
+.centerp2 {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin-left: 10%;
+}
+.centerp2 img{
+    width: 100px;
+
+}
+
+.section2{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+
+}
+.services{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10%;
+
+}
+
+.services h3{
+    background-color: #B9FF66;
+    margin-right: 20px;
+    font-size: 40px;
+    padding: 9px;
+}
+ .services p{
+    width: 70%;
+}
+.section2 .container{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 270px;
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 9px 0px black;
+
+    padding: 30px ;
+    display: flex;
+}
+
+.elem h2{
+    width: 70%;
+    font-size: 26px;
+    background-color: #B9FF66;
+    padding: 10px;
+    margin-bottom: 20%;
+    border-radius: 8px;
+}
+.elem h4{
+    font-weight: 500;
+}
+.elem i{
+    background-color: #000;
+    border-radius: 50px;
+    margin: 5px;
+    color: #B9FF66;
+    font-size: 25px;
+}
+
+.sub2{
+    background-color: #000;
+}
+.sub2 h2{
+ background-color: white;
+}
+.sub2 h4{
+    color: white;
+}
+.sub2 i{
+    color: black;
+    background-color: white;
+}
+
+.container2{
+    height: 300px;
+    margin: 50px 20px;
+    border-radius: 30px;
+    background-color: #F3F3F3;
+    padding: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container2 .text{
+    margin: 20px;
+}
+.container2 h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.container2 p{
+    font-size: 23px;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.section3 .services{
+    margin-top: 110px;
+}
+
+.section3 .case{
+  width: 90vw;
+  margin: 50px 5vw;
+  background: #000;
+  border-radius: 13px;
+  color:white;
+  display: flex;
+
+}
+.case .case1{
+    width: 30%;
+    border-right: 1px solid wheat;
+    margin: 20px;
+}
+.case1 p{
+    width: 85%;
+    text-align:justify;
+}
+.case1 div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    margin: 10px 0;
+    color: #B9FF66;
+}
+.case1 div p{
+    width: 100%;
+    margin: 0;
+}
